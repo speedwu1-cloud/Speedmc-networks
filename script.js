@@ -7,17 +7,17 @@
 */
 
 const players = [
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  ...Array.from({length:40},()=>({name:"",wins:0,bestTime:"--:--"}))
+  {name:"Blackhole55", wins:19, bestTime:"23:89"},
+  {name:"1joo", wins:42, bestTime:"18:32"},
+  {name:"javekv", wins:25, bestTime:"20:41"},
+  {name:"kwaxx_", wins:18, bestTime:"22:15"},
+  {name:"Playmo", wins:12, bestTime:"24:30"},
+  {name:"Bob", wins:7, bestTime:"28:12"},
+  {name:"InfernoTower", wins:78, bestTime:"11:43"},
+  {name:"wrased", wins:5, bestTime:"34:04"},
+  {name:"hahabyebyelol", wins:65, bestTime:"19:98"},
+  {name:"K0mbit0", wins:15, bestTime:"30:67"},
+  ...Array.from({length:40},()=>({name:"SilverYHQ",wins:24,bestTime:"22:42"}))
 ];
 
 const $ = s => document.querySelector(s);
