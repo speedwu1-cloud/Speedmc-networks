@@ -17,7 +17,9 @@ const players = [
   {name:"wrased", wins:5, bestTime:"34:04"},
   {name:"hahabyebyelol", wins:65, bestTime:"19:98"},
   {name:"K0mbit0", wins:15, bestTime:"30:67"},
-  ...Array.from({length:40},()=>({name:"SilverYHQ",wins:24,bestTime:"22:42"}))
+  {name:"SilverYHQ", wins:24, bestTime:"22:42"},
+
+  ...Array.from({length:39},()=>({name:"",wins:0,bestTime:"--:--"}))
 ];
 
 const $ = s => document.querySelector(s);
