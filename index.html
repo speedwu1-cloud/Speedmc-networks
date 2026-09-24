@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speedrun — Classement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">⚡</span>
+      <span>
+        <strong>TON SERVEUR</strong>
+        <small>SPEEDRUN NETWORK</small>
+      </span>
+    </a>
+    <nav>
+      <a class="active" href="#ranking">Classement</a>
+      <a href="#how">Comment ça marche</a>
+    </nav>
+    <div class="status"><i></i> SERVEUR EN LIGNE</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SAISON 01 · UHC SPEEDRUN</p>
+        <h1>TOP <span>50</span><br>RUNNERS</h1>
+        <p class="lead">Le classement officiel des meilleurs speedrunners de ton serveur.</p>
+        <a class="cta" href="#ranking">VOIR LE CLASSEMENT ↓</a>
+      </div>
+      <div class="hero-badge">
+        <div class="cube">⚡</div>
+        <div class="badge-label">BEST RUN</div>
+        <div class="badge-time" id="bestTime">--:--</div>
+        <div class="badge-player" id="bestPlayer">À définir</div>
+      </div>
+    </section>
+
+    <section id="ranking" class="ranking-section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">LEADERBOARD</p>
+          <h2>Classement des speedrunners</h2>
+        </div>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Rechercher un joueur..." aria-label="Rechercher un joueur">
+          <select id="sort">
+            <option value="wins">Plus de wins</option>
+            <option value="time">Meilleur temps</option>
+            <option value="name">Nom A-Z</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="podium" id="podium"></div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Joueur</th><th>Wins</th><th>Meilleur temps</th></tr>
+          </thead>
+          <tbody id="rankingBody"></tbody>
+        </table>
+      </div>
+      <p class="hint">Les 50 places sont prêtes à être remplies. Modifie les joueurs dans <code>script.js</code>.</p>
+    </section>
+
+    <section id="how" class="info">
+      <p class="eyebrow">LE SYSTÈME</p>
+      <h2>Comment fonctionne le classement ?</h2>
+      <div class="cards">
+        <article><span>01</span><h3>Gagne une partie</h3><p>Chaque victoire augmente le compteur de wins du joueur.</p></article>
+        <article><span>02</span><h3>Améliore ton temps</h3><p>Le meilleur temps affiché correspond au record personnel du joueur.</p></article>
+        <article><span>03</span><h3>Monte dans le TOP 50</h3><p>Le leaderboard permet de suivre les meilleurs runners du serveur.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>⚡ TON SERVEUR</span>
+    <span>Speedrun Network · Saison 01</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
