@@ -17,7 +17,7 @@ const players = [
   {name:"wrased", wins:21, bestTime:"34:04"},
   {name:"hahabyebyelol", wins:65, bestTime:"19:98"},
   {name:"K0mbit0", wins:25, bestTime:"30:67"},
-  {name:"SilverYHQ", wins:20, bestTime:"21:42"},
+  {name:"SilverYHQ", wins:19, bestTime:"21:32"},
   {name:"MeowLord", wins:25, bestTime:"20:05"},
   {name:"Diabo_X_Deus", wins:26, bestTime:"21:41"},
   {name:"Miscomputation", wins:22, bestTime:"20:89"},
