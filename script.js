@@ -44,19 +44,19 @@ const players = [
   {name:"OkkotsuMC", wins:8, bestTime:"24:48"},
   {name:"antoheart", wins:6, bestTime:"24:96"},
   {name:"Tatsumi_omg", wins:11, bestTime:"36:23"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"},
-  {name:"", wins:0, bestTime:"--:--"}
+  {name:"Gatt0uz_", wins:21, bestTime:"20:33"},
+  {name:"m4ng0_x", wins:22, bestTime:"20:99"},
+  {name:"BegeelCH", wins:20, bestTime:"21:11"},
+  {name:"FatalSteve", wins:23, bestTime:"21:03"},
+  {name:"Lewiatan67", wins:20, bestTime:"20:55"},
+  {name:"Ashtonig", wins:23, bestTime:"21:88"},
+  {name:"Rushedly", wins:20, bestTime:"21:37"},
+  {name:"ShinyYahir", wins:22, bestTime:"20:99"},
+  {name:"strateqy", wins:21, bestTime:"20:66"},
+  {name:"randomw0rld", wins:25, bestTime:"28:07"},
+  {name:"noiresxz", wins:20, bestTime:"21:40"},
+  {name:"KVN29", wins:21, bestTime:"20:86"},
+  {name:"TheWo1f", wins:20, bestTime:"21:38"}
 ];
 
 const $ = s => document.querySelector(s);
